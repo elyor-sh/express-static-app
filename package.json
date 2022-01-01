@@ -1,0 +1,24 @@
+{
+  "name": "express-static-app",
+  "version": "1.0.0",
+  "description": "express static app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "html",
+    "node",
+    "js"
+  ],
+  "author": "Elyor Shodiyorov <elyor.sh.99@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
