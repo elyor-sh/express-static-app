@@ -16,6 +16,7 @@
   "author": "Elyor Shodiyorov <elyor.sh.99@mail.ru>",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.2"
   },
   "devDependencies": {
