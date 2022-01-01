@@ -1,0 +1,7 @@
+.nav__row {
+    width: 100%;
+}
+
+.navbar-collapse-grow {
+    flex-grow: 0 !important;
+}
