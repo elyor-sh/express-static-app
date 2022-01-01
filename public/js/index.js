@@ -110,7 +110,7 @@ const calculate = (e) => {
 
             break;
         case '%':
-            if(sign === ''){
+            if(sign === '' && inputCalc.value.trim() !== ''){
                 value = Number(value) / 100
             }
             break;

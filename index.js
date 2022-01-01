@@ -1,5 +1,6 @@
 import express from 'express';
 import main from './routes/main.routes.js'
+import errorPage from './routes/404.routes.js'
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -17,6 +18,7 @@ app.set('view engine', 'ejs')
 const PORT = process.env.PORT || 5000
 
 app.use('/', main)
+app.use('/', errorPage)
 
 const start = async () => {
     app.listen(PORT, () => {
